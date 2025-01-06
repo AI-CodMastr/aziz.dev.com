@@ -25,13 +25,12 @@ import { easeIn, motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam dolores aspernatur deserunt. Laudantium numquam accusamus officiis et nihil.",
+    "I am a passionate Software Developer specializing in creating modern web and mobile applications. With expertise in React, React Native, and Next.js, I focus on delivering high-quality, user-centric solutions. My journey in tech is driven by continuous learning and staying updated with the latest technologies to build innovative digital experiences.",
   info: [
     {
       fieldName: "Name ",
       fieldValue: "Farhan Aziz",
     },
-    
     {
       fieldName: "Phone ",
       fieldValue: "(+92) 370 576 3177",
@@ -59,8 +58,7 @@ const about = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam dolores aspernatur deserunt. Laudantium numquam accusamus officiis et nihil.",
+  description: "My educational journey reflects a blend of formal academics and professional certifications, focusing on software development and modern technologies. Each program has contributed to my comprehensive understanding of web and mobile development.",
   items: [
     {
       Institution: "Degree Collage UK",
@@ -79,7 +77,7 @@ const education = {
     },
     {
       Institution: "Saylani Mass IT Training",
-      degree: "Web & Mobile App Developemt",
+      degree: "Web & Mobile App Development",
       duration: "2024 - present",
     },
   ],
@@ -89,7 +87,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam dolores aspernatur deserunt. Laudantium numquam accusamus officiis et nihil.",
+    "I have developed a strong foundation in modern web and mobile development technologies. My expertise includes frontend frameworks like React.js and Next.js, mobile development with React Native, and UI styling with Tailwind CSS. I'm proficient in building responsive, user-friendly applications with clean code and optimal performance.",
   skillList: [
     {
       icon: <FaHtml5 />,

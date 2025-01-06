@@ -89,11 +89,13 @@ const Contact = () => {
           {/* form  */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form onSubmit={handleSubmit} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let's connect</h3>
               <p className="text-white/60">
-                I'm always interested in hearing about new projects and opportunities.
-                Whether you have a question, project idea, or just want to connect,
-                feel free to reach out. I'll get back to you as soon as possible!
+                I'm currently available for freelance work and exciting project collaborations. 
+                With expertise in web and mobile development, I can help bring your ideas to life 
+                using modern technologies like React, Next.js, and React Native. Whether you have 
+                a specific project in mind or just want to explore possibilities, I'm always eager 
+                to discuss new opportunities and create innovative solutions together.
               </p>
               {/* input fields */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
