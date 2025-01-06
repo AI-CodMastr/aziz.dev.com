@@ -15,8 +15,9 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { SiReactnative, SiNativewind, SiFirebase, SiGit, SiGithub, SiClerk, SiExpo } from "react-icons/si";
+import { BiLogoReact } from "react-icons/bi";
 
-// import { ScrollArea } from "@/components/ui/scroll-area";
 import { easeIn, motion } from "framer-motion";
 
 
@@ -33,7 +34,7 @@ const about = {
     
     {
       fieldName: "Phone ",
-      fieldValue: "(+92) 318 304 0822",
+      fieldValue: "(+92) 370 576 3177",
     },
     {
       fieldName: "State ",
@@ -67,13 +68,13 @@ const education = {
       duration: "2022 - 2023",
     },
     {
-      Institution: "Online Course Platforms",
-      degree: "Certified Wordpress Developer",
+      Institution: "DeepLearning.AI",
+      degree: "Certified Prompt Engineer",
       duration: "2022 - 2023",
     },
     {
       Institution: "PIAIC",
-      degree: "(WMD) Generative AI",
+      degree: "Frontend Development",
       duration: "2023",
     },
     {
@@ -83,6 +84,7 @@ const education = {
     },
   ],
 };
+
 
 const skills = {
   title: "My skills",
@@ -121,6 +123,36 @@ const skills = {
       icon: <FaNodeJs />,
       name: "Node.js",
     },
+    {
+      icon: <BiLogoReact />,
+      name: "React Native",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "NativeWind",
+    },
+    {
+      icon: <SiGit />,
+      name: "Git",
+    },
+    {
+      icon: <SiGithub />,
+      name: "GitHub",
+    },
+    {
+      icon: <SiClerk />,
+      name: "Clerk",
+    },
+    {
+      icon: <SiExpo />,
+      name: "Expo",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase",
+    },
+
+    
   ],
 };
 
@@ -135,7 +167,7 @@ const Resume = () => {
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-32">
         <Tabs
           defaultValue="education"
           className="flex flex-col xl:flex-row gap-[60px]"

@@ -22,12 +22,12 @@ const Photo = () => {
             mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/profile.png"
+            src="/assets/profile.jpg"
             priority
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-contain rounded-full z-20"
           />
         </motion.div>
         {/* circle  */}
